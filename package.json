@@ -1,0 +1,20 @@
+{
+  "name": "lparchitect",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-site": "node build-sites.js",
+    "build-only-css": "node build-only-css.js"
+  },
+  "devDependencies": {
+    "sass": "^1.72.0",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0"
+  }
+}
